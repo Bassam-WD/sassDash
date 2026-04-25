@@ -24,7 +24,6 @@ import { PlusIcon } from "lucide-react";
 import { APP_SIDEBAR } from "@/constants";
 
 
-
 export default function UserMenu() {
   return (
     <DropdownMenu>

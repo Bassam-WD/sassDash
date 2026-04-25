@@ -1,4 +1,3 @@
-import { ModeToggle } from "./components/ui/ModeToggle";
 import { ThemeProvider } from "./components/ThemeProvider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 
@@ -7,6 +6,8 @@ import {
   SidebarInset,
 } from "@/components/ui/sidebar";
 import AppSidebar from "./components/layout/AppSidebar";
+import Header from "./components/Header"
+import { Page , PageHeader } from "./components/Page";
 
 function App() {
   return (
@@ -14,12 +15,20 @@ function App() {
       <TooltipProvider>
         <SidebarProvider open={false}>
           <AppSidebar />
+
+
           <SidebarInset>
-            <h1 className="text-3xl font-bold underline text-center text-blue-500 ">
-              App
-            </h1>
-            <ModeToggle />
+            <Header />
+            
+            <Page>
+              <PageHeader />
+
+              <div className="">
+          
+              </div>
+            </Page>
           </SidebarInset>
+
         </SidebarProvider>
       </TooltipProvider>
     </ThemeProvider>
