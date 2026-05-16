@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Progress } from "@/components/ui/progress";
-import { Badge } from "@/components/ui/Badge";
+import { Badge } from "@/components/ui/badge";
 import Avatar from "react-avatar";
 import {
   Tooltip,

@@ -1,9 +1,9 @@
 // Custom Modules
-import { columns } from "@/components/columns.tsx";
+import { columns } from "@/components/Columns";
 
 
 // components
-import { Badge } from "@/components/ui/badge";
+import { Badge } from "@/components/ui/badge.tsx";
 import { Button } from "@/components/ui/button";
 import { DataTable } from "../ui/DataTable";
 
