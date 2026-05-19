@@ -24,7 +24,7 @@ import {
   InputGroupAddon,
   InputGroupInput,
 } from "@/components/ui/input-group";
-import { Kbd } from  "@/components/ui/kbd";
+import { Kbd } from "@/components/ui/kbd";
 
 // Assets
 import {
@@ -84,7 +84,7 @@ export function DataTable<TData, TValue>({
           type="single"
           variant="outline"
           value={filter}
-          onValueChange={(value) => setFilter(value)}
+          onValueChange={(value) => setFilter(value as Filter)}
         >
           <ToggleGroupItem value="view-all">View All</ToggleGroupItem>
           <ToggleGroupItem value="monitored">Monitored</ToggleGroupItem>
@@ -106,7 +106,7 @@ export function DataTable<TData, TValue>({
             </InputGroupAddon>
 
             <InputGroupAddon align="inline-end">
-              <kbd className="text-xs">⌘K</kbd>
+              <Kbd className="text-xs">⌘K</Kbd>
             </InputGroupAddon>
           </InputGroup>
 
