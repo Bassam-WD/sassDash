@@ -17,7 +17,7 @@ import {
   UserIcon,
   UsersIcon,
 } from 'lucide-react';
-import myPhoto from '@/assets/profile.jpg';
+import myPhoto from '../assets/profile.JPG';
 /**
  * Types
  */
