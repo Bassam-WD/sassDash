@@ -12,7 +12,7 @@ A modern, fully functional admin dashboard built with **React**, **TypeScript**,
 
 ## ✨ Features
 
-- 📋 Clean admin layout with sidebar navigation
+- 📋 Clean admin layout with sidebar navigation Light and Dark Mode
 - 🧩 Reusable UI components using shadcn/ui
 - 🔷 Full TypeScript coverage across the entire codebase
 - ⚡ Lightning-fast development build with Vite + HMR
